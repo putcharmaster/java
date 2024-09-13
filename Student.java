@@ -7,8 +7,8 @@ public class Student
         Scanner scan = new Scanner(System.in);
         LocalDate today = LocalDate.now();
         int currentYear = today.getYear();
-        int currentMonth = today.getMonthValue();
-        int currentDay = today.getDayOfYear();
+//        int currentMonth = today.getMonthValue();
+//        int currentDay = today.getDayOfYear();
 
         //int currentYear = LocalDate.now().getYear();
 
