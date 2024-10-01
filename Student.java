@@ -3,6 +3,45 @@ import java.time.LocalDate;
 
 public class Student 
 {
+    public static String concatStudent(String name, String lastName, int day, String birthMonthName, int year, String course){
+        String studentInfo = "";
+        String result = "";
+        studentInfo = name +" " +lastName+", ";
+        studentInfo += day + " " + birthMonthName +" "+year+", ";
+        studentInfo += course+"\n";
+        result =  result.concat(studentInfo);
+        return (result);
+    }
+    public static String birthMonth(int month){
+        String birthMonthName = "";
+        switch(month){
+            case 1: birthMonthName = "January";
+                    return (birthMonthName);
+            case 2: birthMonthName = "February";
+                return (birthMonthName);
+            case 3: birthMonthName = "March";
+                return (birthMonthName);
+            case 4: birthMonthName = "April";
+                return (birthMonthName);
+            case 5: birthMonthName = "May";
+                return (birthMonthName);
+            case 6: birthMonthName = "June";
+                return (birthMonthName);
+            case 7: birthMonthName = "July";
+                return (birthMonthName);
+            case 8: birthMonthName = "August";
+                return (birthMonthName);
+            case 9: birthMonthName = "September";
+                return (birthMonthName);
+            case 10: birthMonthName = "October";
+                return (birthMonthName);
+            case 11: birthMonthName = "November";
+                return (birthMonthName);
+            case 12: birthMonthName = "December";
+                return (birthMonthName);
+            default: return "Invalid month";
+        }
+    }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         LocalDate today = LocalDate.now();
@@ -18,7 +57,7 @@ public class Student
 
 
         String list_of_students = "";
-        String studentInfo = "";
+        // String studentInfo = "";
 
         for (int i = 1; i <= number_of_student; i++){
         
@@ -51,8 +90,9 @@ public class Student
 
             System.out.print("Enter course registered: ");
             String course = scan.nextLine();
-            
-            String birthMonthName = "";
+      
+            String birthMonthName = birthMonth(month);
+   /*          String birthMonthName = "";
             switch(month){
                 case 1: birthMonthName = "January"; break;
                 case 2: birthMonthName = "February"; break;
@@ -66,13 +106,13 @@ public class Student
                 case 10: birthMonthName = "October"; break;
                 case 11: birthMonthName = "November"; break;
                 case 12: birthMonthName = "December"; break;
-            }
+            } */
 
-
-            studentInfo = name +" " +lastName+", ";
+            list_of_students = concatStudent(name, lastName, day, birthMonthName, year, course);
+           /*  studentInfo = name +" " +lastName+", ";
             studentInfo += day + " " + birthMonthName +" "+year+", ";
             studentInfo += course+"\n";
-            list_of_students = list_of_students.concat(studentInfo);
+            list_of_students = list_of_students.concat(studentInfo); */
             System.out.println();
         }
         System.out.println(list_of_students);

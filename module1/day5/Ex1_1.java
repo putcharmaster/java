@@ -1,4 +1,4 @@
-package day5;
+package module1.day5;
 
 public class Ex1_1 {
     public static void main(String[] args){

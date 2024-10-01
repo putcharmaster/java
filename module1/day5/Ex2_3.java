@@ -1,4 +1,4 @@
-package day5;
+package module1.day5;
 import java.util.Scanner;
 
 public class Ex2_3 {
