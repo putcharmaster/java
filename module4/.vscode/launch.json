@@ -1,0 +1,64 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "InsertActor",
+            "request": "launch",
+            "mainClass": "InsertActor",
+            "projectName": "module4_7e391c49"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Actor",
+            "request": "launch",
+            "mainClass": "Actor",
+            "projectName": "module4_7e391c49"
+        },
+        {
+            "type": "java",
+            "name": "InsertActor",
+            "request": "launch",
+            "mainClass": "Day2.InsertActor",
+            "projectName": "module4_7e391c49",
+       "vmArgs": "-cp ${workspaceFolder}/Day2/lib/postgresql-42.7.1.jar"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "module4_7e391c49"
+        },
+        {
+            "type": "java",
+            "name": "Try",
+            "request": "launch",
+            "mainClass": "Try",
+            "projectName": "module4_7e391c49"
+        },
+        {
+            "type": "java",
+            "name": "DatabaseConnectionExample",
+            "request": "launch",
+            "mainClass": "first_jdbc_connection.DatabaseConnectionExample",
+            "projectName": "module4_7e391c49"
+        },
+        {
+            "type": "java",
+            "name": "Ex01",
+            "request": "launch",
+            "mainClass": "first_jdbc_connection.Ex01",
+            "projectName": "module4_7e391c49"
+        }
+    ]
+}
