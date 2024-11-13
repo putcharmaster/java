@@ -9,6 +9,13 @@
             "name": "InsertActor",
             "request": "launch",
             "mainClass": "InsertActor",
+            "projectName": "module4_876ad661"
+        },
+        {
+            "type": "java",
+            "name": "InsertActor",
+            "request": "launch",
+            "mainClass": "InsertActor",
             "projectName": "module4_7e391c49"
         },
         {
@@ -30,7 +37,7 @@
             "request": "launch",
             "mainClass": "Day2.InsertActor",
             "projectName": "module4_7e391c49",
-       "vmArgs": "-cp ${workspaceFolder}/Day2/lib/postgresql-42.7.1.jar"
+            "vmArgs": "-cp ${workspaceFolder}/Day2/lib/postgresql-42.7.1.jar"
         },
         {
             "type": "java",
