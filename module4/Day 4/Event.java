@@ -1,4 +1,5 @@
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class Event {
@@ -67,9 +68,9 @@ public class Event {
     }
 
     public void print() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTimeInMillis(startDate.getTime());
-        System.out.printf("Event ID: %d\nEvent Name: %s\nDescription: %s\nLocation: %s\nStart Time: %s\nEnd Time: %s\nCapacity: %d\n\n", id, name, description, location, calendar.getTime(), endDate, capacity);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        System.out.println();
+        //System.out.printf("Event ID: %d\nEvent Name: %s\nDescription: %s\nLocation: %s\nStart Time: %s\nEnd Time: %s\nCapacity: %d\n\n", id, name, description, location, calendar.getTime(), endDate, capacity);
         //System.out.printf("Event ID: %d\nEvent Name: %s\nDescription: %s\nLocation: %s\nStart Time: %s\nEnd Time: %s\nCapacity: %d\n\n", id, name, description, location, startDate, endDate, capacity);
     }
 
