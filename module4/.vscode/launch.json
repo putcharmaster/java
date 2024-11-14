@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EventManager",
+            "request": "launch",
+            "mainClass": "EventManager",
+            "projectName": "module4_7e391c49"
+        },
+        {
+            "type": "java",
             "name": "InsertActor",
             "request": "launch",
             "mainClass": "InsertActor",
@@ -37,7 +44,7 @@
             "request": "launch",
             "mainClass": "Day2.InsertActor",
             "projectName": "module4_7e391c49",
-            "vmArgs": "-cp ${workspaceFolder}/Day2/lib/postgresql-42.7.1.jar"
+            "vmArgs": "-cp ${workspaceFolder}/Day2/lib/postgresql-42.7.3.jar"
         },
         {
             "type": "java",
