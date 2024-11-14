@@ -1,15 +1,5 @@
-// {
-//     "java.project.referencedLibraries": [
-//         "lib/**/*.jar"
-//     ]
-// }
-
 {
     "java.project.sourcePaths": [
-        "Day2",
         "Day 4"
-    ],
-    "java.project.referencedLibraries": [
-        "Day2/lib/postgresql-42.7.3.jar"
     ]
 }
