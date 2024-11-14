@@ -20,7 +20,17 @@ public class EventManager {
 
          String answer = userOps();
 
-
+       
+         if (answer.equals("e"))
+            System.exit(0);
+         else if (answer.equals("a") || answer.equals("b")) {
+            System.out.println("You selected: " + answer);
+         } 
+         else {
+            System.out.println("Invalid option. Please try again.");
+            System.exit(0);
+         }
+      
          try {
             Connection connection = DriverManager.getConnection(var1, var2, var3);
             Statement statement = connection.createStatement();
