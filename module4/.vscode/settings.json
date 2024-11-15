@@ -1,16 +1,14 @@
-// {
-//     "java.project.referencedLibraries": [
-//         "lib/**/*.jar"
-//     ]
-// }
-
 {
     "java.project.sourcePaths": [
+<<<<<<< HEAD
         "Day2",
         "Day 4",
         "Day4"
     ],
     "java.project.referencedLibraries": [
         "Day2/lib/postgresql-42.7.3.jar"
+=======
+        "Day 4"
+>>>>>>> df3567a8371ed17b8189c9b36630543f88ee08e4
     ]
 }
